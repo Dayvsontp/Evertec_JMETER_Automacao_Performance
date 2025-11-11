@@ -29,20 +29,18 @@ Repositório do projeto de testes automatizados de performance, realizado no sit
 ## 🤖 Como executar
 
 1. Clonar o repositório ou fork do projeto
-```
+
 Após instalação do apache-jmeter, quando importar o projeto, parametrizar usuarios e Ramp-up, clicar no play
-```
+
 
 2. Executar testes em Carga ou Pico
-```
+
 Plugin jp@gc - Throughput Shaping Timer deve ser instalado, para controlar as requisições pelo Start RPS/ End RPS / Duration, sec
 Foi criada linhas para picos e para cargas, exemplo:  Start RPS = 250, End RPS = 500, Duration = 10s para um teste de pico
-```
+
 
 3. Executar e ver o relatório dos testes
 ```
-Execução via CLI
-ex:
 C:\Teste_JMETER>C:\apache-jmeter-5.6.3\bin\jmeter.bat -n -t consulta_cep.jmx -l resultado.jtl -e -o myDashboard
 Relatorio e arquivo .jtl na pasta "myDashboard"
 ```
